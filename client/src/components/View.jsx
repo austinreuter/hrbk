@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
 const View = (props) => (
   <div className="home">
     <h5 className="homeName"> Home: {props.home.title} </h5>
-    <div> <img src={ `${props.home.photopath}`} /> </div>
+    <div> <img src={ `${props.home.photopath}` } /> </div>
     <div className="homeInfo"> 
       <span className="address"> {props.home.address} </span>
       <br/>
@@ -18,7 +18,7 @@ const View = (props) => (
       <span className="zip"> {' ' + props.home.zipcode} </span>
      
       <br/>
-      <span> Desciption: {props.home.description + '. \n'} </span>
+      <span> Description: {props.home.description + '.'} </span>
       <br/>
 
     </div>
